@@ -47,3 +47,9 @@ Outras configurações são das pŕoprias extensões
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false
 }
+
+
+- mais:
+  ```cmd
+  echo 3 | sudo tee /proc/sys/vm/drop_caches
+  ```
