@@ -53,8 +53,10 @@ Outras configurações são das pŕoprias extensões
   ```cmd
   echo 3 | sudo tee /proc/sys/vm/drop_caches
   ```
-
-
+- teclado
+```
+setxkbmap -model abnt2 -layout br -variant abnt2
+```
 
 
 ```js
